@@ -5,7 +5,6 @@
 
 .navbar{
     background-color: gray;
-    border-bottom: 2px solid black;
 }
 
 .navbar-brand{
@@ -17,30 +16,32 @@
 #menu-btn{
     border: 2px black solid;
     padding: 0;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 
 #menu-btn:focus{
     border-color:white ;
+    vertical-align: middle;
     transition: ease;
     box-shadow: none;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.nav-link{
+.navbar-nav,.dropdown-divider{
+    width: 107%;
     background-color: white;
-    font-weight: bold;
-    width: 110%;
-    margin-left: -5%;
-    font-size: 1.1em;
-    color: black;
+    border-top: 2px solid black;
 }
 
-.dropdown-divider{
-    margin-top: 0;
-    margin-bottom: 0;
-    border:1px solid black;
-    height: 15px;
+.navbar-nav{
+    position: relative;
+    bottom: -7px;
+    border-bottom: 2px solid black;
+    left: -12px;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 1.1em;
     color: black;
 }
 
