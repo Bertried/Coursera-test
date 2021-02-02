@@ -20,7 +20,61 @@
     margin-right: 2%;
 }
 
+#menu-btn:focus{
+    border-color:white ;
+    transition: ease;
+    box-shadow: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
+.nav-link{
+    background-color: white;
+    font-weight: bold;
+    width: 110%;
+    margin-left: -5%;
+    font-size: 1.1em;
+    color: black;
+}
+
+.dropdown-divider{
+    margin-top: 0;
+    margin-bottom: 0;
+    border:1px solid black;
+    height: 15px;
+    color: black;
+}
+
+h2{
+    margin: 1em auto 1em;
+    font-weight: bold;
+}
+
+h4{
+    margin-top: -15px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+.col-lg-4 > div{
+    background-color: gray;
+    color: black;
+    margin-bottom: 20px;
+    padding: 20px;
+    /* margin-right: 1%;  */
+    /* width: 31%; */
+}
+
+.col-lg-4 > div > p{
+text-align: left;}
+
+@media (max-width : 576px){
+    .col-xs-12{
+        width: 70%;
+        margin-left: 15%;
+        text-align: left;
+    }
+}
 
 
 
