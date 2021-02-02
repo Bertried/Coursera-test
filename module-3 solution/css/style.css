@@ -6,19 +6,21 @@
 .navbar{
     background-color: gray;
     border-bottom: 2px solid black;
-    width: 100%; 
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .navbar-brand{
-    padding-left: 3%;
-    vertical-align: middle;
     font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 2%;
 }
 
-.navbar-header{
-    
+#menu-btn{
+    border: 2px black solid;
+    padding: 0;
+    margin-right: 2%;
 }
+
+
+
+
 
