@@ -1,0 +1,36 @@
+#profil_pic  {
+   text-align: center;
+   background: url("cercle-fill-2.png") no-repeat;
+   background-position: -2.7cm -6cm;
+}
+
+.personal_info{
+   background-color: rgb(236, 233, 233);
+   margin:-12px
+}
+
+
+.école{
+   color: rgba(6, 138, 161, 1);
+}
+
+.bi{
+   color: rgba(6, 138, 161, 1);
+}
+
+h3{
+   text-align: center;
+   background-color: rgba(5, 138, 161, 1);
+}
+
+#name{
+   position: relative;
+   top: 0.5cm;
+   color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#name + img{
+   position: relative;
+   top: 0.8cm;
+}
